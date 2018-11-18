@@ -1,0 +1,7 @@
+I really love your magazine and Linux. Se foreward every time to a new issue. I buy this in a Danish 7/11 kiosk.
+In relation to your git article in LINUX MAGAZINE November 2018 issue 216 page 34 "Version Control with Git". I will recall your notice In figure 1 page 35 "A commit without specifying text brings up the default editor". Specifing the contents in .git/COMMIT_EDITMSG after a change in one of the files in project dir. I have tried several issues without any success. Then i used the "man gittutorial". After changes in files in project, use "git diff --cached" to clearyfy changes. use "git status" to see witch files in branch master is changed. Thereafter the git commit -a will do the job to call the default editor with .git/COMMIT_EDITMSG and be able to notify your changes. 
+
+My OS is Ubuntu 16.04 MATE running on X61S Lenovo with git version 2.7.4.
+
+Sinsirely
+Sven Aage Madsen Denmark
